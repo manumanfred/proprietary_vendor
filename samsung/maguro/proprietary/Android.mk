@@ -17,9 +17,9 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),maguro)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := fRom
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := fRom
+LOCAL_MODULE := dumpdcc
+LOCAL_MODULE_OWNER := Ziyann
+LOCAL_SRC_FILES := dumpdcc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/bin

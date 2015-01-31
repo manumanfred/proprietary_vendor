@@ -14,7 +14,7 @@
 
 # Samsung blob(s) necessary for Maguro hardware
 PRODUCT_PACKAGES := \
-    fRom \
+    dumpdcc \
     libsec-ril \
     libsecril-client \
     sirfgps \
