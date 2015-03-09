@@ -18,6 +18,6 @@ PRODUCT_PACKAGES := \
     libdrmwvmplugin \
     libfrsdk \
     libwvdrmengine \
-    libwvdrm_L3 \
+    libwvdrm_L1 \
     libwvm \
-    libWVStreamControlAPI_L3
+    libWVStreamControlAPI_L1
