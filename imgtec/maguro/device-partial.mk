@@ -15,6 +15,7 @@
 # Imgtec blob(s) necessary for Maguro hardware
 PRODUCT_PACKAGES := \
     pvrsrvctl \
+    powervr \
     libEGL_POWERVR_SGX540_120 \
     libGLESv1_CM_POWERVR_SGX540_120 \
     libGLESv2_POWERVR_SGX540_120 \
