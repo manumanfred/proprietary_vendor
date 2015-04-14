@@ -20,5 +20,6 @@ PRODUCT_PACKAGES := \
     sirfgps \
     ducati-m3 \
     gps.omap4 \
+    libfrsdk \
     libpn544_fw
 
