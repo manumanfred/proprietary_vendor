@@ -37,16 +37,6 @@ LOCAL_MODULE_OWNER := widevine
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libfrsdk
-LOCAL_SRC_FILES := libfrsdk.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := samsung
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libwvdrmengine
 LOCAL_SRC_FILES := libwvdrmengine.so
 LOCAL_MODULE_SUFFIX := .so

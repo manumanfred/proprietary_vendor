@@ -16,7 +16,6 @@
 PRODUCT_PACKAGES := \
     libdrmdecrypt \
     libdrmwvmplugin \
-    libfrsdk \
     libwvdrmengine \
     libwvdrm_L3 \
     libwvm \
