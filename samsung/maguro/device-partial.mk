@@ -16,7 +16,6 @@
 PRODUCT_PACKAGES := \
     dumpdcc \
     libsec-ril \
-    libsecril-client \
     sirfgps \
     ducati-m3 \
     gps.omap4 \
