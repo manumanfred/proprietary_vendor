@@ -17,6 +17,8 @@ PRODUCT_PACKAGES := \
     dumpdcc \
     libsec-ril \
     sirfgps \
+    smc_normal_world_android_cfg \
+    smc_pa_wvdrm \
     ducati-m3 \
     gps.omap4 \
     libfrsdk \

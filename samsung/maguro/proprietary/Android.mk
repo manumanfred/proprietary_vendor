@@ -46,6 +46,26 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := smc_normal_world_android_cfg
+LOCAL_MODULE_OWNER := unknown
+LOCAL_SRC_FILES := smc_normal_world_android_cfg.ini
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .ini
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := smc_pa_wvdrm
+LOCAL_MODULE_OWNER := unknown
+LOCAL_SRC_FILES := smc_pa_wvdrm.ift
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .ift
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := gps.omap4
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := gps.omap4.so
